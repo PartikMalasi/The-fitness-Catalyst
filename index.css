@@ -57,7 +57,7 @@ section{
 }
 
 .temp{
-    background-image: url(f.jpg);
+    background-image: url(./images/f.jpg);
     opacity: .8;
     background-position: center;
     background-size: cover;
@@ -85,7 +85,7 @@ section{
     background-image: url(https://nidhiwellness.com/wp-content/uploads/2022/05/Gym-vs-Yoga.png);
 }
 .img3{
-    background-image: url('./bn2.jpg');
+    background-image: url('./images/bn2.jpg');
     background-size: cover;
     background-position: center;
 }
