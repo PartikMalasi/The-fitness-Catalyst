@@ -1,0 +1,312 @@
+.theme{
+    background-color: aliceblue;
+}
+
+
+.navhovr:hover{
+    background-color: gray;
+}
+.navhov:hover{
+    background-color: rgb(0, 38, 255);
+}
+/* section{
+    height: 80vh;
+} */
+.endbar{
+    justify-content: end;
+}
+.p1{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 8px;
+    font-weight: 200;
+    font-size: 18px;
+}
+.fonti{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+}
+.img1{
+ 
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+body{
+    overflow-x: hidden;
+
+}
+
+
+.textare{
+    padding-bottom: 0;
+ 
+}
+section{
+    overflow-x: hidden
+    ;
+}
+
+.temp{
+    background-image: url(./f.jpg);
+    opacity: .8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    
+}
+
+
+.p2{
+    font-size: 18px;
+}
+.btnsize{
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.img2{
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+    background-image: url(https://nidhiwellness.com/wp-content/uploads/2022/05/Gym-vs-Yoga.png);
+}
+.img3{
+    background-image: url('./bn2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img4{
+    background-image: url(https://www.fluidogroup.com/wp-content/uploads/2019/09/personlized-customer-service-examples-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.price{
+    transition-property: transform;
+    transition-duration: 0.7s;
+    
+}
+.price:hover{
+   transform: scale(1.1);
+    
+}
+/* .anima{
+    position: relative;
+    /* animation-name: slideleft;
+    animation-duration: 1s; 
+    transform: translateX(100);
+    transition: all 1s;
+} */
+/* @keyframes slideleft{
+    0%   { left:0px; top:0px;}
+    
+    100%  { left:200px; top:0px;} } */
+
+.visi{
+    visibility: hidden
+    ;
+}
+
+.card-cover{
+    background-size: cover;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    
+    
+}
+.card-cover:hover{
+    transform:scale(1.08);
+    background-image: url(https://images.unsplash.com/photo-1618022325802-7e5e732d97a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2t8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    background-size: cover;
+    .visi{
+        visibility: visible;
+    }
+    
+}
+.para{
+    width: 400px;
+}
+
+
+
+
+.img5{
+    height: 300px;
+    width: 350px;
+    border-radius:20%;
+    border: 4px solid rgb(82, 78, 78);
+    background-size: cover;
+}
+
+
+
+.results{
+   
+   width: 300px;
+   height: auto;
+   
+   border: 3px solid black ;
+   
+    text-align: center;
+
+    margin: auto;
+}
+
+.box{
+    width: auto
+    ;
+    margin: auto;
+}
+.img6{
+    height: 300px;
+    width: 350px;
+    border-radius: 20%;
+    border: 4px solid rgb(82, 78, 78);
+    background-size: cover;
+}
+
+.img7{
+    height: 300px;
+    width: 350px;
+    border-radius: 20%;
+    border: 4px solid rgb(82, 78, 78);
+    background-size: cover;
+}
+.containers{
+    display: flex;
+
+}
+
+    
+
+
+
+.img8{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 4px solid rgb(82, 78, 78);
+    background-size: cover;
+}
+
+.divimg{
+    width: 1000px;
+}
+.fl{
+    display: flex;
+    justify-content: space-evenly;
+    
+} 
+.timg1{
+    border-radius: 50%;
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin:0 30px;
+    border: 2px solid rgb(63, 60, 60);
+    transition-property: transform;
+    transition-duration: 0.7s;
+}
+.timg2{
+    border-radius: 50%;
+    border: 2px solid rgb(63, 60, 60);
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin:0 30px;
+    transition-property: transform;
+        transition-duration: 0.7s;
+}
+.timg1:hover,.timg2:hover{
+    transform: scale(1.1);
+}
+.testi{
+    margin-top: 40px;
+    /* border: 3px rgb(63, 60, 60);
+    border-style: double;
+   background-color: aliceblue;
+    padding: 0;
+    width: 75%;
+        border-width: 10px;
+        
+        border-image-slice: 20;
+        border-image-repeat: round; */
+      
+      
+}
+.firstletter::first-letter{
+    font-size: 40px;
+    color:blue;
+}
+.bord1{
+    float: left;
+    height: fit-content;
+    margin: 0;
+    margin-right: 10px;
+    
+}
+.bord2{
+    float: right;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+
+.footer-link{
+    width: 40px;
+    height: auto;
+    
+}
+.show{
+    opacity: 1;
+    
+}
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+
+
+
+
+
+@media (max-width: 60px) {
+    .navbar-title {
+      white-space: normal;
+      text-align: center;
+    }
+    body{
+     
+        margin-top: 100px;
+    }
+  }
+
+
+
+@media (max-width: 360px) {
+    .navbar-title {
+      white-space: normal;
+      text-align: center;
+    }
+    body{
+     
+        margin-top: 100px;
+    }
+  }
