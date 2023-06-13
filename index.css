@@ -57,7 +57,7 @@ section{
 }
 
 .temp{
-    background-image: url(./f.jpg);
+    background-image: url(f.jpg);
     opacity: .8;
     background-position: center;
     background-size: cover;
