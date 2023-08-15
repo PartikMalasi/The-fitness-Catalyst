@@ -13,20 +13,16 @@ function remove(){
     document.querySelector("nav").classList.remove("border-bottom");
     document.querySelector("nav").classList.remove("border-white");
 }
-document.querySelector(".bmibtn").addEventListener("click",bmi);
+
 var w=0;
 var h=0;
-function bmi(){
-    w= prompt("Enter the weight");
-    h= prompt("Enter the height");
-   document.querySelector(".heig").value=h;
-   document.querySelector(".weig").value=w;
-   
-}
 
 
 document.querySelector(".sub").addEventListener("click",bmians);
 function bmians(){
+    w=document.getElementById("myText").value;
+    h= document.getElementById("myText2").value;
+    
     var result=(w*1.0)/(h*h);
    
     if(result<=18.0){
@@ -40,4 +36,3 @@ function bmians(){
         document.querySelector(".result").innerHTML=""+result+"<br>You are <span class='text-danger'><b>Over weight!</b></span> <br> Don't worry we have a plan for you.";
     }
 }
-
