@@ -22,7 +22,9 @@ document.querySelector(".sub").addEventListener("click",bmians);
 function bmians(){
     w=document.getElementById("myText").value;
     h= document.getElementById("myText2").value;
-    
+    if (isNaN(w) || isNaN(h)) {
+        document.querySelector(".result").innerHTML = "<h4>Wrong input.</h4>";
+    }
     var result=(w*1.0)/(h*h);
    if(isNaN(result)){
        document.querySelector(".result").innerHTML="<h4>Wrong input.</h4>";
