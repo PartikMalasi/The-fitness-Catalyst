@@ -24,9 +24,11 @@ function bmians(){
     h= document.getElementById("myText2").value;
     
     var result=(w*1.0)/(h*h);
-   
-    if(result<=18.0){
-        document.querySelector(".result").innerHTML=""+result+"<br>You are <span class='text-danger'><b> Under weight!</b></span> <br> Don't worry we have a plan for you.";
+   if(isNaN(result)){
+       document.querySelector(".result").innerHTML="<h4>Wrong input.</h4>";
+   }
+   else if(result<=18.0){
+        document.querySelector(".result").innerHTML=""+result+"<br>You are <span class='text-danger'><b> Under weight!</b></span> <br> Don't worry we havea plan for you.";
     
     }
     else if(result<=25){
